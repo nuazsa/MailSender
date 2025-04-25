@@ -2,6 +2,9 @@
 
 namespace Nuazsa\MailSender\Services;
 
+/**
+ * @author Nur Azis Saputra <nurazissaputra.com>
+ */
 class View
 {
     public static function render(string $view, array $model = []) 

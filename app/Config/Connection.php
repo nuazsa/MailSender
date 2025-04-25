@@ -10,7 +10,6 @@ class Connection
 
     public static function getConnection()
     {
-
         $dotenv = Dotenv::createImmutable(__DIR__ . '/../../');
         $dotenv->load();
 
